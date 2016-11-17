@@ -37,6 +37,7 @@ class WC_Data_Store {
 		'customer-session'  => 'WC_Customer_Data_Store_Session',
 		'payment-token'     => 'WC_Payment_Token_Data_Store',
 		'shipping-zone'     => 'WC_Shipping_Zone_Data_Store',
+		'meta'              => 'WC_Meta_Data_Store',
 	);
 
 	/**
