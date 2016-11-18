@@ -121,7 +121,7 @@ class WC_Order_Item_Product extends WC_Order_Item {
 	 * @param string $value
 	 * @throws WC_Data_Exception
 	 */
-	protected function set_subtotal_tax( $value ) {
+	public function set_subtotal_tax( $value ) {
 		$this->set_prop( 'subtotal_tax', wc_format_decimal( $value ) );
 	}
 
@@ -131,7 +131,7 @@ class WC_Order_Item_Product extends WC_Order_Item {
 	 * @param string $value
 	 * @throws WC_Data_Exception
 	 */
-	protected function set_total_tax( $value ) {
+	public function set_total_tax( $value ) {
 		$this->set_prop( 'total_tax', wc_format_decimal( $value ) );
 	}
 
